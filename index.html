@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+
+    <script>
+         function cutfruitpieces (fruits){
+            return fruits*4
+        }
+        function fruitprocessor(apples,mangoes,bananas){
+            let applepieces = cutfruitpieces(apples)
+            let mangopieces = cutfruitpieces(mangoes)
+            let bananapieces = cutfruitpieces(bananas)
+            console.log(`made juice with ${applepieces} apples ${mangopieces} mangoes and ${bananapieces} bananas`)
+        }
+
+        fruitprocessor(2,3,4)
+    </script>
+</body>
+</html>
